@@ -11,6 +11,7 @@ ARG JAVA_FOLDER=jdk1.8.0_181
 ARG FILE=server-jre-$JAVA_VERSION-linux-x64.tar.gz
 ARG SHA1=ea1e9aa79cb382b787bb24728162ead34ef924f8
 
+# Move into java directory
 WORKDIR /usr/java
 
 # Set Java home location
